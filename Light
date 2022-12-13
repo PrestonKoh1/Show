@@ -1,0 +1,660 @@
+int red = 13;
+int blue = 12;
+int green = 11;
+int yellow = 10;
+int yelloww = 9;
+int greenn = 8;
+ 
+void setup()
+{
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(yelloww, OUTPUT);
+  pinMode(greenn, OUTPUT);
+}
+ 
+void loop()
+{
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+//5 foot 
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yelloww, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+//she my ride
+  digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+ 
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(500);
+  //Never tell a lie
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  delay(45);
+  
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(45);
+ // a lie
+  digitalWrite(greenn, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(green, LOW);
+  delay(45);
+ 
+   digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(45);
+ // we like bonnie 
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ // and clyde
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(500);
+ //lookin at her 
+  digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(40);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+ //thigh
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(200);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(500);
+ //like do it come with 
+digitalWrite(greenn, HIGH);
+  delay(40);
+  digitalWrite(greenn, LOW);
+  delay(40);
+  digitalWrite(yellow, HIGH);
+  delay(40);
+  digitalWrite(yellow, LOW);
+  delay(40);
+  digitalWrite(green, HIGH);
+  delay(40);
+  digitalWrite(green, LOW);
+  delay(40);
+  digitalWrite(blue, HIGH);
+  delay(40);
+  digitalWrite(blue, LOW);
+  delay(40);
+  digitalWrite(red, HIGH);
+  delay(40);
+  digitalWrite(red, LOW);
+  delay(40);
+  digitalWrite(yelloww, HIGH);
+  delay(40);
+  digitalWrite(yellow, LOW);
+  delay(40);
+  
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(300);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(500);
+  
+  digitalWrite(greenn, HIGH);
+  delay(50);
+  digitalWrite(greenn, LOW);
+  delay(50);
+  digitalWrite(yellow, HIGH);
+  delay(50);
+  digitalWrite(yellow, LOW);
+  delay(50);
+  digitalWrite(green, HIGH);
+  delay(50);
+  digitalWrite(green, LOW);
+  delay(50);
+  digitalWrite(blue, HIGH);
+  delay(50);
+  digitalWrite(blue, LOW);
+  delay(50);
+  digitalWrite(red, HIGH);
+  delay(50);
+  digitalWrite(red, LOW);
+  delay(50);
+  digitalWrite(yelloww, HIGH);
+  delay(50);
+  digitalWrite(yellow, LOW);
+  delay(50);
+  
+   digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(300);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(500);
+ 
+    digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  
+      digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  
+        digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  
+          digitalWrite(greenn, HIGH);
+  delay(45);
+  digitalWrite(greenn, LOW);
+  delay(45);
+  digitalWrite(yellow, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  digitalWrite(green, HIGH);
+  delay(45);
+  digitalWrite(green, LOW);
+  delay(45);
+  digitalWrite(blue, HIGH);
+  delay(45);
+  digitalWrite(blue, LOW);
+  delay(45);
+  digitalWrite(red, HIGH);
+  delay(45);
+  digitalWrite(red, LOW);
+  delay(45);
+  digitalWrite(yelloww, HIGH);
+  delay(45);
+  digitalWrite(yellow, LOW);
+  delay(45);
+  
+  
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(400);
+ 
+    digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(100);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(200);
+  
+    digitalWrite(yelloww, HIGH);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(100);
+  
+  digitalWrite(yelloww, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(greenn, LOW);
+  delay(200);
+  
+  
+  //out for the nighty
+    digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+  //
+      digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+  //
+      digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+  
+            digitalWrite(greenn, HIGH);
+  delay(10);
+  digitalWrite(greenn, LOW);
+  delay(10);
+  digitalWrite(yellow, HIGH);
+  delay(10);
+  digitalWrite(yellow, LOW);
+  delay(10);
+  digitalWrite(green, HIGH);
+  delay(10);
+  digitalWrite(green, LOW);
+  delay(10);
+  digitalWrite(blue, HIGH);
+  delay(10);
+  digitalWrite(blue, LOW);
+  delay(10);
+  digitalWrite(red, HIGH);
+  delay(10);
+  digitalWrite(red, LOW);
+  delay(10);
+  digitalWrite(yelloww, HIGH);
+  delay(10);
+  digitalWrite(yellow, LOW);
+  delay(10);
+  //
+        digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+  //
+        digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+  //
+        digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+ 
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, HIGH);
+  digitalWrite(yelloww, HIGH);
+  digitalWrite(greenn, HIGH);
+  delay(250);
+ 
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, LOW);
+  digitalWrite(yelloww, LOW);
+  digitalWrite(greenn, LOW);
+  delay(250);
+} 
